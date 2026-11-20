@@ -15,7 +15,10 @@
     "e2e:dev": "playwright test --config playwright.dev.config.ts",
     "report": "playwright show-report",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "mcp:build": "npm --prefix mcp-server run build",
+    "mcp:start": "npm --prefix mcp-server run start",
+    "mcp:test": "npm --prefix mcp-server run test"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.3.0",
